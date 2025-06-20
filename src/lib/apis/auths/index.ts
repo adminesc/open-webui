@@ -56,7 +56,7 @@ export const getAdminConfig = async (token: string) => {
 
 export const updateAdminConfig = async (token: string, body: object) => {
 	let error = null;
-
+	console.log("XURL "+ WEBUI_API_BASE_URL);
 	const res = await fetch(`${WEBUI_API_BASE_URL}/auths/admin/config`, {
 		method: 'POST',
 		headers: {

@@ -1,0 +1,26 @@
+#logo-major{
+    max-width:100px;
+	height:100%;
+	width:100%;
+    max-height:100px;
+}#flexyrow110{
+    flex-direction:column !important;
+}
+#logo, #logo-her{border-radius:53% !important;}
+#main-text-splash{
+
+					position: absolute;
+					width: auto;
+					height: 6rem;
+					top: calc(44% + 115px);
+					left: 50%;
+	font-size:2rem;
+	font-family:sans-serif;
+
+	color:white;
+					transform: translateX(-50%);
+
+}
+#main-text-splash .EchoEd2{
+	font-weight:600;
+}
